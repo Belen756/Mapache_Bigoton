@@ -1,1 +1,29 @@
-Pagina Principal de la Aplicacion de Mapache Bigoton
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Barbería Mapache Bigotón</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <h1>Barbería Mapache Bigotón</h1>
+    </header>
+    <main>
+        <img src="~/images/mapache.png" alt="Mapache Bigotón" />
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Citas</a></li>
+                <li><a href="#">Ubicación</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button>Registrarse</button>
+            <button>Iniciar Sesión</button>
+        </div>
+    </main>
+</body>
+</html>
+
